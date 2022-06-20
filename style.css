@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  border-top:5px solid purple;
+  border-bottom:5px solid red;
+}
+.Home{
+  text-decoration:none;
+  color: purple;
+  font-size:20px;
+  padding:10px 30px 10px 30px;
+}
+.Home:hover{
+  color:red;
+}
+.Foto_1{
+  width: 700px;
+  height:700px;
+  float:left;
+}
+.technik{
+  position: relative;
+  left:50px;
+}
+.opo{
+  position: relative;
+  top: 100px;
+  left:80px;
+  font-size:40px;
+  color:purple;
+}
+.opos{
+  position: relative;
+  top:20px;
+  left:200px;
+  font-size:40px;
+  color:red;
+}
+.oposol{
+  position: relative;
+  color: purple;
+  background-color:white;
+  border:2px solid black;
+  border-radius:15px;
+  text-decoration:0px;
+  font-size: 30px;
+  padding: 10px;
+  left:10px;
+  top:110px;
+}
+.oposol:hover{
+  transition:1s linear;
+  font-size:100px;
+  border:5px solid purple;
+  color:black;
+  border-radius:50px;
+}
+.about{
+  position:relative;
+  left: 340px;
+  font-size: 30px;
+  bottom: 250px;
+}
+.about:hover{
+  transform: rotate3d(1,2,1,360deg);
+  transition:2s linear;
+}
+#tellefon_nummer_text{
+  background-color:black;
+  color:white;
+  padding:20px 60px 20px 20px;
+  position: relative;
+  top:200px;
+  font-size:25px;
+  
+}
